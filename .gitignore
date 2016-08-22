@@ -1,4 +1,11 @@
-activemq-data/
+.classpath
 .project
-*.log
 .settings/
+README.md
+activemq-data/
+catalog/
+derby.log
+mule-project.xml
+pom.xml
+src/
+target/
