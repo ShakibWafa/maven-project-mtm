@@ -31,6 +31,29 @@
 				</configuration>
 			</plugin>
 			<plugin>
+			  <groupId>org.mule.tools.maven</groupId>
+			  <artifactId>mule-maven-plugin</artifactId>
+			  <version>2.0</version>
+			  <configuration>
+			    <deploymentType>arm</deploymentType>
+			    <username>shakib</username>
+			    <password>Wr0ngP@55w0rd</password>
+			    <target>server-name</target>
+			    <!-- One of: server, serverGroup, cluster -->
+			    <targetType>server</targetType>
+			    <environment>Production</environment>
+			  </configuration>
+			  <executions>
+			    <execution>
+			      <id>deploy</id>
+			      <phase>deploy</phase>
+			      <goals>
+			      <goal>deploy</goal>
+			    </goals>
+			    </execution>
+			  </executions>
+			</plugin>
+			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<version>2.2.1</version>
 				<configuration>
