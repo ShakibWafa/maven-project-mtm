@@ -36,7 +36,7 @@
 			  <version>2.0</version>
 			  <configuration>
 			    <deploymentType>cloudhub</deploymentType>
-			    <muleVersion>3.7.2</muleVersion>
+			    <muleVersion>3.8.1</muleVersion>
 			    <username>shakib</username>
 			    <password>Wr0ngP@55w0rd</password>
 			    <workerType>micro</workerType>
